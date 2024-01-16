@@ -1,0 +1,33 @@
+/* Navigation style */
+.header {
+    color: white;
+    background-image: url(../assets/image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    padding: 0;
+    top: 0;
+    z-index: 99;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.nav{
+    padding: 25px 0;
+}
+.logo {
+    width: 25%;
+}
+
+.menu {
+    text-transform: capitalize;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a, .account-menu a{
+    color: white;
+}
+
+.account-menu {
+    width: 25%;
+}

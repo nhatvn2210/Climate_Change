@@ -1,0 +1,63 @@
+/* Index style */
+.definition-container .img-container img {
+    width: 40%;
+    height: 100%;
+}
+
+.natural .paragraph {
+    margin: 0 0 25px 0;
+}
+
+.natural .earth-reason {
+    margin: 50px 0;
+}
+
+.natural .card-container .card {
+    width: 30%;
+}
+
+.natural .card-container .card .img {
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.natural .card-container .card p {
+    min-height: 150px;
+    padding: 15px !important;
+}
+
+.natural .card-container .earth-reason .card p {
+    min-height: 300px;
+}
+
+.human .content1 {
+    margin: 40px 0;
+}
+
+.human .content1 img {
+    width: 40%;
+}
+
+.human .content1 .paragraph {
+    width: 50%;
+}
+
+.human .img-container {
+    width: 100%;
+}
+
+.human .img-container .element {
+    width: 80%;
+    margin: 25px auto;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.human .img-container .element img {
+    width: 100%;
+}
+
+.human .img-container .element p {
+    text-align: center;
+    padding: 20px 0;
+}
