@@ -61,3 +61,19 @@
     text-align: center;
     padding: 20px 0;
 }
+
+/* Card style */
+.card {
+    position: relative;
+    top: 0;
+    transition: 1s top 1s box-shadow;
+}
+
+.card:hover {
+    top: -8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card:hover .img{
+    opacity: .7;
+}

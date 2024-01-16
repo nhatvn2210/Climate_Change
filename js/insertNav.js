@@ -5,7 +5,9 @@ const headerElement = document.querySelector('.header');
 function insertNav() {
     let htmls = `
     <nav class="nav display-flex justify-content-between align-items-center">
-        <div class="logo"></div>
+        <div class="logo">
+            <img src="./assets/image/logo.png" alt="">
+        </div>
         <ul class="menu display-flex justify-content-evenly">
             <a href="" class="default-text">home</a>
             <a href="" class="default-text">about us</a>
