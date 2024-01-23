@@ -71,6 +71,9 @@
     background-size: cover;
     background-position: center;
 }
+.disaster-result .card-container .card p{
+    padding: 10px;
+}
 /* Card style */
 .card {
     position: relative;
