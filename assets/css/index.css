@@ -61,7 +61,16 @@
     text-align: center;
     padding: 20px 0;
 }
-
+/* Result style */
+.disaster-result .card-container .card{
+    width: 30%;
+    min-height: 400px;
+}
+.disaster-result .card-container .card .img{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
 /* Card style */
 .card {
     position: relative;
