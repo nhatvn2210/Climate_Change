@@ -9,8 +9,8 @@ function insertNav() {
             <img src="./assets/image/logo.png" alt="">
         </div>
         <ul class="menu display-flex justify-content-evenly">
-            <a href="" class="default-text">home</a>
-            <a href="" class="default-text">about us</a>
+            <a href="./index.html" class="default-text">home</a>
+            <a href="./about.html" class="default-text">about us</a>
             <a href="" class="default-text">forum</a>
             <a href="" class="default-text"></a>
 

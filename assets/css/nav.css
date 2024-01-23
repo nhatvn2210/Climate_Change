@@ -2,7 +2,6 @@
 .header {
     min-height: 100px;
     color: white;
-    background-image: url(/assets/image/background.jpg);
     background-size: cover;
     background-position: center;
     font-size: 20px;
