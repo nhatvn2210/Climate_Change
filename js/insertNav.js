@@ -6,7 +6,7 @@ function insertNav() {
     let htmls = `
     <nav class="nav display-flex justify-content-between align-items-center">
         <div class="logo">
-            <img src="./assets/image/logo.png" alt="">
+            <img src="./assets/image/nav-logo.png" alt="">
         </div>
         <ul class="menu display-flex justify-content-evenly">
             <a href="./index.html" class="default-text">home</a>
@@ -24,6 +24,8 @@ function insertNav() {
     `;
     headerElement.innerHTML = htmls;
     headerElement.classList.add("position-fixed");
+    headerElement.style.backgroundImage = 'url(./assets/image/background.jpg)';
+    
 }
 // Main script
 insertNav();
